@@ -67,3 +67,12 @@ void display() {
     }
     cout << endl;
 }
+
+int main() {
+    input();            // Get user input
+    insertionsort();    // Perform sorting
+    display();          // Show result
+    
+    system("pause"); 
+    return 0;
+}
