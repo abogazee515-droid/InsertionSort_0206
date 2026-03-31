@@ -20,3 +20,13 @@ void input() {
             cout << "\nArray cannot be more than 20\n";
         }
     }
+    cout << endl;
+    cout << "===========================" << endl;
+    cout << "=====Enter Array Elements====" << endl;
+    cout << "===========================" << endl;
+
+    for (int i = 0; i < n; i++) {
+        cout << "Data number-" << (i + 1) << ": ";
+        cin >> arr[i];
+    }
+}
