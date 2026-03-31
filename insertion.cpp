@@ -30,3 +30,11 @@ void input() {
         cin >> arr[i];
     }
 }
+void insertionsort() {
+    int temp;
+    int j;
+
+    // Loop through array starting from second element
+    for (int i = 1; i < n; i++) {
+        temp = arr[i];
+        j = i - 1;
