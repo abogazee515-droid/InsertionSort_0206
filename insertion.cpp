@@ -38,3 +38,12 @@ void insertionsort() {
     for (int i = 1; i < n; i++) {
         temp = arr[i];
         j = i - 1;
+
+        // Shift elements greater than temp to the right
+        while (j >= 0 && arr[j] > temp) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+
+        // Place temp in correct position
+        arr[j + 1] = temp;
