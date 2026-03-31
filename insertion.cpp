@@ -47,3 +47,11 @@ void insertionsort() {
 
         // Place temp in correct position
         arr[j + 1] = temp;
+
+        // Display each step of sorting
+        cout << "\nStep " << i << ": ";
+        for (int k = 0; k < n; k++) {
+            cout << arr[k] << " ";
+        }
+    }
+}
